@@ -1,4 +1,4 @@
-# covid-19 analytics
+# COVID-19 Analytics
 R code for COVID-19 predictive analytics.
 This is a series of functions designed to process aggregated data made available by the NHS about COVID-19 triage.
 The ETL process comprises cleaning the data and pulling information about the ccg from the ONS so that more information can be inferred abuot the communities dealing with the pandemic more or less accutely. Data from the api of Goole Places is used to enrich the data. The code contains the rudimentary notification system designed to inform local businesses of each community about surges or decreases of COVID-19 cases in the local area. 
